@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy7-1</title>
+	<script type="text/javascript">
+function show(){
+	let n1=parseInt(document.getElementById('n1').value);
+	let n2=parseInt(document.getElementById('n2').value);
+	let n3=parseInt(document.getElementById('n3').value);
+	let aver=(n1+n2+n3)/3;//调用compute函数计算对应的面积
+	alert("算出的平均值为："+aver);
+}
+</script>
+	<style type="text/css">
+        div
+        { width: 300px;
+			height: 300px;
+		      margin:auto;
+		}
+	</style>
+</head>
+<body>
+	<div>
+  <form>
+	  <h2>计算器</h2>
+  <label>输入三个整数：</label><br/>
+  <label for="n1"></label><input type="number" name="n1" id="n1"><br/>
+  <label for="n2"></label><input type="number" name="n2" id="n2"><br/>
+  <label for="n3"></label><input type="number" name="n3" id="n3"><br/>
+  <input type="button" value="计算平均值!" onclick="show()" >
+</form>
+</div>
+</body>
+</html>
