@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.red{
+	color: red;
+	text-align: center;
+}
+.green{
+	color: green;
+	text-align: left;
+}
+#main_block{
+	font-size: 12px;
+	color: black;
+}
+.background{
+	color: #ececec;
+}
